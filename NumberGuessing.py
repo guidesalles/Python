@@ -2,7 +2,7 @@ import random
 
 number = random.randrange(1, 101)
 
-guess = input("Chute um número(1 até 100): ")
+guess = int(input("Chute um número(1 até 100): "))
 
 if guess == number:
     print("Correct")
